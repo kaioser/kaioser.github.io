@@ -21,10 +21,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kaioser
 
 # Build settings
-markdown: kramdown
-theme: cayman
+markdown: kramdownremote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
